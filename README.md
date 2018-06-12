@@ -81,8 +81,11 @@ switch to another branch and check it out into your working directory
 merge the specified branch’s history into the current one
 
 **git log**
-show all commits in the current branch’s history
+show all commits in the current branch’s history. Options:  --author="User name"
 
+**git shortlog**  
+Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title. Options: -s (summary) -n (numbered)
+List 
 
  ## INSPECT & COMPARE ## 
 Examining logs, diffs and object information
