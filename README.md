@@ -80,18 +80,16 @@ switch to another branch and check it out into your working directory
 **git merge [branch]**
 merge the specified branch’s history into the current one
 
+
+ ## INSPECT & COMPARE ## 
+Examining logs, diffs and object information
+
 **git log**
 show all commits in the current branch’s history. Options:  --author="User name"
 
 **git shortlog**  
 Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title. Options: -s (summary) -n (numbered)
 List 
-
- ## INSPECT & COMPARE ## 
-Examining logs, diffs and object information
-
-**git log**
-show the commit history for the currently active branch
 
 **git log branchB..branchA**
 show the commits on branchA that are not on branchB
@@ -177,7 +175,7 @@ write working from top of stash stack
 **git stash drop**
 discard the changes from top of stash stack
 
-### References:###
+### References: ###
 [Git Education][author link]
 
 
