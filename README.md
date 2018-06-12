@@ -1,6 +1,6 @@
 # GIT CHEAT SHEET # 
 
-##INSTALLATION & GUIS##
+ ## INSTALLATION & GUIS ## 
 With platform specific installers for Git, GitHub also provides the
 ease of staying up-to-date with the latest releases of the command
 line tool while providing a graphical user interface for day-to-day
@@ -18,7 +18,7 @@ the official Git web site.
 htp://git-scm.com
 
 
-##SETUP##
+ ## SETUP ## 
 Configuring user information used across all local repositories
 
 **git config --global user.name “[firstname lastname]”**
@@ -31,7 +31,7 @@ set an email address that will be associated with each history marker
 set automatic command line coloring for Git for easy reviewing
 
 
-##SETUP & INIT##
+ ## SETUP & INIT ## 
 Configuring user information, initializing and cloning repositories
 
 **git init**
@@ -41,7 +41,7 @@ initialize an existing directory as a Git repository
 retrieve an entire repository from a hosted location via URL
 
 
-##STAGE & SNAPSHOT##
+ ## STAGE & SNAPSHOT ## 
 Working with snapshots and the Git staging area
 
 **git status**
@@ -63,7 +63,7 @@ diff of what is staged but not yet commited
 commit your staged content as a new commit snapshot
 
 
-##BRANCH & MERGE##
+ ## BRANCH & MERGE ## 
 Isolating work in branches, changing context, and integrating changes
 
 **git branch**
@@ -82,7 +82,7 @@ merge the specified branch’s history into the current one
 show all commits in the current branch’s history
 
 
-##INSPECT & COMPARE##
+ ## INSPECT & COMPARE ## 
 Examining logs, diffs and object information
 
 **git log**
@@ -101,7 +101,7 @@ show the diff of what is in branchA that is not in branchB
 show any object in Git in human-readable format
 
 
-##IGNORING PATTERNS##
+ ## IGNORING PATTERNS ## 
 Preventing unintentional staging or commiting of files
 
 **git config --global core.excludesfile [file]**
@@ -115,7 +115,7 @@ Save a file with desired paterns as .gitignore with either direct string
 matches or wildcard globs
 
 
-##TRACKING PATH CHANGES##
+ ## TRACKING PATH CHANGES ## 
 Versioning file removes and path changes
 
 **git rm [file]**
@@ -128,7 +128,7 @@ change an existing file path and stage the move
 show all commit logs with indication of any paths that moved
 
 
-##SHARE & UPDATE##
+ ## SHARE & UPDATE ## 
 Retrieving updates from another repository and updating local repos
 
 **git remote add [alias] [url]**
@@ -147,7 +147,7 @@ Transmit local branch commits to the remote repository branch
 fetch and merge any commits from the tracking remote branch
 
 
-##REWRITE HISTORY##
+ ## REWRITE HISTORY ## 
 Rewriting branches, updating commits and clearing history
 
 **git rebase [branch]**
@@ -157,7 +157,7 @@ apply any commits of current branch ahead of specified one
 clear staging area, rewrite working tree from specified commit
 
 
-##TEMPORARY COMMITS##
+ ## TEMPORARY COMMITS ## 
 Temporarily store modified, tracked files in order to change branches
 
 **git stash**
