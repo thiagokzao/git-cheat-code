@@ -80,27 +80,15 @@ switch to another branch and check it out into your working directory
 **git merge [branch]**  
 merge the specified branch’s history into the current one
 
-<<<<<<< HEAD
-=======
-**git log**  
-show all commits in the current branch’s history
-
->>>>>>> 19d3c79741dda44b805ced681c6f4dfda1da7bf8
 
  ## INSPECT & COMPARE ## 
 Examining logs, diffs and object information
 
-<<<<<<< HEAD
-**git log**
-show all commits in the current branch’s history. Options:  --author="User name"
-
 **git shortlog**  
 Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title. Options: -s (summary) -n (numbered)
-List 
-=======
-**git log**  
-show the commit history for the currently active branch
->>>>>>> 19d3c79741dda44b805ced681c6f4dfda1da7bf8
+
+**git log**
+show all commits in the current branch’s history. Options:  --author="User name"
 
 **git log branchB..branchA**  
 show the commits on branchA that are not on branchB
